@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    height: 100vh;
+    font-size: 1.3rem;
+    background: linear-gradient(to right, rgb(211, 204, 204), rgb(150, 195, 212));
+}
+
+#contact h1 {
+    font-size: 2.8rem;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    padding: 5px 6px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+#contact h1::after {
+    content: "";
+    width: '';
+    height: 4px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -0;
+}
+
+#contact h1:hover::after {
+    width: 100%;
+    transition: 0.4s;
+}
+
+#contact h2 {
+    font-size: 2.2rem;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#contact p {
+    font-size: 1.3rem;
+    margin-left: 30px;
+    padding: 4px;
+}
+
+#contact ul {
+    margin-left: 5px;
+    margin: 8px;
+    padding: 20px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+#contact ul li {
+    margin-left: 5px;
+    margin: 8px;
+    padding: 2px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.inbox-tick {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.inbox-tick li {
+    margin-left: 10px;
+}
+
+#checkbox1 {
+    margin-left: 30px;
+}
+
+#contact-box input {
+    width: 180%;
+    padding: 0.5rem;
+    margin: 9px;
+}
+
+.form-group {
+    margin-left: 200px;
+    text-align: right;
+    justify-content: right;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contact-button {
+    padding: 8px;
+    width: 30vh;
+    margin-top: 15px;
+    margin-left: 43vh;
+    background: linear-gradient(to right, rgb(188, 178, 178), rgb(150, 195, 212));
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.contact-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, rgb(79, 73, 73), rgb(150, 195, 212));
+}
+
+#contact1 {
+    margin-top: 20px;
+    height: 80vh;
+    font-size: 1.3rem;
+    background: rgb(238, 229, 229);
+}
+
+#contact1 h1 {
+    height: 80px;
+    font-size: 2.1rem;
+    width: 59%;
+    margin: 8px;
+    padding: 9px;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+#type {
+    height: 50vh;
+    margin-top: 20px;
+    background-color: rgb(241, 247, 247);
+}
+
+#type h1 {
+    margin-left: 18px;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.container {
+    margin: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxes {
+    width: 55vh;
+    background-color: rgb(214, 197, 197);
+    height: 30vh;
+    margin: 9px;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(146, 140, 140);
+}
+
+.boxes h1 {
+    margin-top: 9px;
+    margin-left: 6px;
+}
+
+.boxes p {
+    margin: 4px;
+    padding: 3px;
+    font-size: 1.2rem;
+}
+
+#type1 {
+    height: 90vh;
+    margin-top: 20px;
+    background-color: rgb(238, 243, 243);
+}
+
+#type1 h1{
+    margin-left: 18px;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.container3 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#type2 {
+    height: 125vh;
+    margin-top: 20px;
+    background-color: rgb(232, 238, 238);
+}
+
+#type2 h1{
+    margin-left: 18px;
+    margin-top: 20px;
+    font-size: 2.3rem;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container4 h2{
+    margin-top: 8px;
+    font-size: 1.8rem;
+}
+
+.container4 p{
+    margin-top: 8px;
+    font-size: 1.4rem;
+}
+
+.container5 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container5 h2{
+    margin-top: 8px;
+    font-size: 1.8rem;
+}
+
+.container5 p{
+    margin-top: 8px;
+    font-size: 1.4rem;
+}
+
+.container6 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container6 h2{
+    margin-top: 8px;
+    font-size: 1.8rem;
+}
+
+.container6 p{
+    margin-top: 8px;
+    font-size: 1.4rem;
+}
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="./aboutus.css">
+</head>
+<body>
+    <section class="second" id="second">
+        <h1>ABOUT US</h1>
+        <div class="container">
+            <div class="firstp">
+                Blissful Emerging Technologies offers scalable enterprise bulk messaging services
+                and voice solutions for seamless expansion accross borders. Our services power businessses
+                globally to streamline their operations nad enhance customer reationships by providing
+                simplified management solutions directly to their end.
+            </div>
+            <br>
+            <div class="ul">
+                <ul>
+                    <li>SMS Campaigns</li>
+                    <li>Instant OTPs</li>
+                    <li>Notifications</li>
+                    <li>Two-Way Interactions</li>
+                    <li>Other Bulk SMS</li>
+                </ul>
+            </div>
+
+
+            <div id="para">
+
+                <p> <br>Blissful Emerging Technologies understands the importance of Two Cs-Customer and
+                    Communication, and are also the key to keeping your business ahead in today's fast-
+                    paced digital world. As a leading service provider in the industry, we offer simplified
+                    solutions to suit your communication capabilities and streamline your operations.
+                    <br>
+                </p>
+
+                <p><br>
+                    Our Bulk SMS service enables you to send large volumes of text messages instantly to your target
+                    audience, allowing you to connect with customers, promote your brand, send notifications, and
+                    drive
+                    engagement. Our platform enables you to create and manage SMS campaigns, personalise messages,
+                    schedule deliveries, and track the performance of your campaigns in real-time. We ensure high
+                    delivery rates and reliable message transmission, guaranteeing that your messages reach their
+                    intended recipients promptly.
+                </p>
+
+                <p><br>
+                    In addition to our Bulk SMS service, we offer advanced VoIP (Voice over Internet Protocol)
+                    solutions
+                    to meet your everyday business communication needs. VoIP enables you to make and receive phone
+                    calls
+                    over the Internet, eliminating the need for traditional phone lines and reducing costs
+                    significantly. Our VoIP service provides crystal-clear voice quality, seamless call routing, and
+                    a
+                    range of features such as call forwarding, voicemail, conferencing, and more.
+                </p>
+
+                <p><br>With our VoIP service, you can seamlessly collaborate within your organisation, connect
+                    remote teams,
+                    and provide exceptional customer service.</p>
+
+            </div>
+            <div id="btn" onclick="toggleHide()">Read More</div>
+            <script>
+                function toggleHide() {
+                    let btn = document.getElementById('btn');
+                    let para = document.getElementById('para');
+                    if (para.style.display != 'none') {
+                        para.style.display = 'none';
+                    }
+                    else {
+                        para.style.display = 'block';
+                    }
+                }
+            </script>
+        </div>
+    </section>
+</body>
+</html>

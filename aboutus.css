@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second {
+    height: 170vh;
+}
+
+.second h1 {
+    font-size: 2.2rem;
+    width: 20%;
+    margin-left: 25px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+}
+
+.second h1::after {
+    content: "";
+    width: '';
+    height: 4px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -0;
+}
+
+.second h1:hover::after {
+    width: 80%;
+    transition: 0.4s;
+}
+
+.ul {
+    margin-left: 30px;
+}
+
+.container {
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin: 20px 25px;
+    padding: 30px 40px;
+    background: linear-gradient(to right,rgb(134, 170, 189),rgb(141, 135, 135));
+}
+
+#btn{
+    border: 2px solid black;
+    background-color: rgb(191, 182, 182);
+    width: 110px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
